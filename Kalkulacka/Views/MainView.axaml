@@ -28,28 +28,29 @@
                Margin="0,0,0,5" 
                Height="50" 
                Width="204" 
-               TextAlignment="Center"/>
+               TextAlignment="Center"
+               TextWrapping="Wrap"/>
 
     <UniformGrid Columns="4">
         <Button Content="7" Command="{Binding Button7Command}"/>
         <Button Content="8" Command="{Binding Button8Command}"/>
         <Button Content="9" Command="{Binding Button9Command}"/>
-        <Button Content="/" Command="{Binding ButtonDelCommand}"/>
+        <Button Content="/" Command="{Binding ButtonDelCommand}" Background="Orange"/>
 
         <Button Content="4" Command="{Binding Button4Command}"/>
         <Button Content="5" Command="{Binding Button5Command}"/>
         <Button Content="6" Command="{Binding Button6Command}"/>
-        <Button Content="*" Command="{Binding ButtonKratCommand}"/>
+        <Button Content="*" Command="{Binding ButtonKratCommand}" Background="Orange"/>
 
         <Button Content="1" Command="{Binding Button1Command}"/>
         <Button Content="2" Command="{Binding Button2Command}"/>
         <Button Content="3" Command="{Binding Button3Command}"/>
-        <Button Content="-" Command="{Binding ButtonMinusCommand}"/>
+        <Button Content="-" Command="{Binding ButtonMinusCommand}" Background="Orange"/>
 
         <Button Content="0" Command="{Binding Button0Command}"/>
-        <Button Content="Del" Command="{Binding ButtonSmazatCommand}"/>
-        <Button Content="=" Command="{Binding ButtonFinalCommand}"/>
-        <Button Content="+" Command="{Binding ButtonPlusCommand}"/>
+        <Button Content="Del" Command="{Binding ButtonSmazatCommand}" Background="Orange"/>
+        <Button Content="=" Command="{Binding ButtonFinalCommand}" Background="Orange"/>
+        <Button Content="+" Command="{Binding ButtonPlusCommand}" Background="Orange"/>
     </UniformGrid>
 </StackPanel>
 </UserControl>

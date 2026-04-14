@@ -266,7 +266,7 @@ public partial class MainViewModel : ViewModelBase
         var vysledek = dt.Compute(priklad, "");
 
 
-        int result = Convert.ToInt32(vysledek);
+        double result = Convert.ToDouble(vysledek);
         Greeting = result.ToString();
             x = "";
             priklad = "";
