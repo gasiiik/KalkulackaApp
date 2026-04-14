@@ -8,7 +8,7 @@
         x:Class="Kalkulacka.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="Kalkulacka"
-        Height="300" Width="220">
+        Height="320" Width="260">
         
         <views:MainView />
 </Window>

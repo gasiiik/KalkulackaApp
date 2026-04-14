@@ -9,7 +9,7 @@ namespace Kalkulacka.ViewModels;
 public partial class MainViewModel : ViewModelBase
 {
     [ObservableProperty]
-    private string _greeting = "Welcome to Avalonia!";
+    private string _greeting = " ";
     string priklad;
 
     private static bool v = false;
